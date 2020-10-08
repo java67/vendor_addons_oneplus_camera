@@ -53,10 +53,10 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := DolbyAtmos
 LOCAL_MODULE_OWNER := unknown
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := system/app/DolbyAtmos/DolbyAtmos.apk
+LOCAL_SRC_FILES := system/priv-app/DolbyAtmos/DolbyAtmos.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_SUFFIX := .apk
 LOCAL_PRIVILEGED_MODULE := false
-LOCAL_DEX_PREOPT := false
+LOCAL_DEX_PREOPT := true
 include $(BUILD_PREBUILT)
